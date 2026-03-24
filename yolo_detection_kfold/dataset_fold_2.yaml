@@ -1,0 +1,10 @@
+# YOLOv11 Config for Fold 2
+path: D:/下载/ultralytics-8.3.6/ultralytics-8.3.6/yolo_detection_kfold 
+train: fold_2_train.txt
+val: fold_2_val.txt
+
+nc: 3
+names:
+  0: periapical
+  1: periodontal
+  2: endo-periodontal

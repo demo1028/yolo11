@@ -1,0 +1,7 @@
+train: /home/user/Han/dangpeipei/ultralytics-8.3.6/data/images/train  # train images (relative to 'path') 4 images
+val: /home/user/Han/dangpeipei/ultralytics-8.3.6/data/images/val  # val images (relative to 'path') 4 images
+test: /home/user/Han/dangpeipei/ultralytics-8.3.6/data/images/test
+nc: 9
+
+# class names
+names: ['Furcation Involvement', 'Endo-Periodontal Lesion', 'Dental Caries', 'Root Filling', 'Oral Filling', 'Residual Root', 'Implant', 'Prosthesis', 'Periapical Lesion']
